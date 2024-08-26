@@ -16,7 +16,7 @@ Deploy the Kubernetes manifests provided in this repository to set up the applic
 <h2>Accessing the Application</h2>
 Once deployed, the application can be accessed via the external IP or service endpoint provided by the Kubernetes cluster. MongoDB will be running as a service within the cluster.
 But here i used third party docker image. So, the application is not fully functional. The main purpose was to create kubernetes cluster that has nodes and pods for the forntend, API, and Database service.
-<img src="E:\DEVOPS\VotingAppKube.jpg" alt="The pods available">
+<img src="VotingAppKube-Output.jpg" alt="The pods available">
 
 <h2>Troubleshooting</h2>
 For troubleshooting any issues related to deployment or application runtime, check the logs of the Kubernetes pods and services. Ensure that MongoDB is running correctly and is accessible to the API service.
